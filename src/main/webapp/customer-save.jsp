@@ -13,8 +13,8 @@
 <body>
 <h1>Save Customer</h1>
 <%
-    String message = request.getParameter("message");
-    String error = request.getParameter("error");
+    String message = (String) request.getParameter("message");
+    String error = (String) request.getParameter("error");
 %>
 <%--condition open--%>
 <%
@@ -44,13 +44,16 @@
 
 <form action="customer-save" method="post">
     <label for="name">Name :</label><br>
-    <input type="text" id="name" name="name" required><br><br>
+    <input type="text" id="name" name="name" required>
+    <br/>
 
     <label for="address">Address:</label>
-    <input type="text" id="address" name="address" required><br><br>
+    <input type="text" id="address" name="address" required>
+    <br/>
 
     <label for="email">Email :</label>
-    <input type="text" id="email" name="email" required><br><br>
+    <input type="text" id="email" name="email" required>
+    <br/>
 
     <button type="submit">Save Customer</button>
 </form>

@@ -9,7 +9,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb63dad2-d87d-4d4c-a2e7-ad3daaa2a968" name="Changes" comment="" />
+    <list default="true" id="fb63dad2-d87d-4d4c-a2e7-ad3daaa2a968" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jsp/CustomerDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ff564044-3954-4dc3-8d69-13c8d16a9c8c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ff564044-3954-4dc3-8d69-13c8d16a9c8c.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JSP_Web_exploded/WEB-INF/classes/org/example/jsp/CustomerSaveServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JSP_Web_exploded/WEB-INF/classes/org/example/jsp/CustomerSaveServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JSP_Web_exploded/customer-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JSP_Web_exploded/customer-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/JSP_Web_exploded/customer-save.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JSP_Web_exploded/customer-save.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jsp/CustomerSaveServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jsp/CustomerSaveServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/customer-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/customer-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/customer-save.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/customer-save.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,9 +32,25 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MaleeshaMAdhushanka&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MaleeshaMAdhushanka/JSP-pos.git&quot;,
+    &quot;accountId&quot;: &quot;4cdd760d-2b60-48d1-8fa2-e13a1807f79b&quot;
+  }
+}</component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -36,9 +65,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2rSyNGyJ7qdXgTtLF03gr3cE8l2" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -46,8 +75,12 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.JSP [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Tomcat Server.Tomcat 10.1.33.executor": "Run",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/ZeejMaleesha/AAd-Prcatice/JSP/src/main/webapp",
     "node.js.detected.package.eslint": "true",
@@ -55,10 +88,15 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.13964844",
     "project.structure.side.proportion": "0.26704547",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -67,14 +105,21 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="Tomcat 10.1.33" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.33" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+    <configuration default="true" type="TomeeConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 10.1.33" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.33" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="JSP:Web exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/JSP_Web_exploded" />
-          </settings>
-        </artifact>
         <artifact name="JSP:war">
           <settings>
             <option name="CONTEXT_PATH" value="/JSP_war" />
@@ -82,7 +127,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="75c2eaa9-2987-4bfb-932c-3b71cfc66c60" />
+        <option name="BASE_DIRECTORY_NAME" value="7902251c-57d8-402e-95b7-03dc238417d9" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -90,7 +135,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="62789" />
+        <option name="DEBUG_PORT" value="60814" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -156,7 +201,6 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="JSP:war" />
-          <artifact name="JSP:Web exploded" />
         </option>
       </method>
     </configuration>
@@ -177,11 +221,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736566731102</updated>
-      <workItem from="1736566732035" duration="4513000" />
+      <workItem from="1736566732035" duration="11840000" />
+      <workItem from="1736604823101" duration="4013000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

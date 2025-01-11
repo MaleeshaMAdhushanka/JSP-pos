@@ -14,7 +14,7 @@
         </button>
         <div class="dropdown-content">
             <a href="customer-save.jsp">Add New Customer</a>
-            <a href="customer-list.jsp">Customer List</a>
+            <a href="customer-all">Customer List</a>
             <a href="customer-delete.jsp">Delete Customer</a>
             <a href="customer-update.jsp">Update Customer</a>
         </div>
@@ -24,7 +24,7 @@
 </div>
 <h1><%="Customer Management System"%><br/>
      <a href="customer-save.jsp">Add New Customer</a><br/>
-     <a href="customer-list.jsp">Customer List</a><br/>
+     <a href="customer-all">Customer List</a><br/>
      <a href="customer-delete.jsp">Delete Customer</a><br/>
     <a href="customer-update.jsp">Update Customer</a><br/>
 </body>

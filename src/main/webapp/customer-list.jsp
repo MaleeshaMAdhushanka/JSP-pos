@@ -21,7 +21,7 @@
         </button>
         <div class="dropdown-content">
             <a href="customer-save.jsp">ADD NEW CUSTOMER</a>
-            <a href="customer-list.jsp">VIEW CUSTOMERS</a>
+            <a href="customer-all">VIEW CUSTOMERS</a>
             <a href="customer-delete.jsp">DELETE CUSTOMER</a>
             <a href="customer-update.jsp">EDIT CUSTOMER</a>
         </div>
@@ -54,7 +54,7 @@
         <td><%= customer.getAddress() %></td>
         <td><%= customer.getEmail() %></td>
         <td>
-            <a href="customer-edit?id=<%= customer.getId() %>">Edit</a>
+            <a href="customer-update?id=<%= customer.getId() %>">Edit</a>
             <a href="customer-delete?id=<%= customer.getId() %>">Delete</a>
         </td>
     </tr>

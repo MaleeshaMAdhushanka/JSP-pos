@@ -10,18 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb63dad2-d87d-4d4c-a2e7-ad3daaa2a968" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jsp/CustomerDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/ff564044-3954-4dc3-8d69-13c8d16a9c8c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/ff564044-3954-4dc3-8d69-13c8d16a9c8c.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jsp/CustomerAllServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jsp/CustomerDeleteServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/jsp/CustomerUpdateServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JSP_Web_exploded/WEB-INF/classes/org/example/jsp/CustomerSaveServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JSP_Web_exploded/WEB-INF/classes/org/example/jsp/CustomerSaveServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JSP_Web_exploded/customer-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JSP_Web_exploded/customer-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/JSP_Web_exploded/customer-save.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/JSP_Web_exploded/customer-save.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/jsp/CustomerSaveServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/jsp/CustomerSaveServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/customer-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/customer-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/customer-save.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/customer-save.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +216,7 @@
       <option name="presentableId" value="Default" />
       <updated>1736566731102</updated>
       <workItem from="1736566732035" duration="11840000" />
-      <workItem from="1736604823101" duration="4013000" />
+      <workItem from="1736604823101" duration="6354000" />
     </task>
     <servers />
   </component>
